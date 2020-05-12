@@ -1,0 +1,19 @@
+{
+  "name": "hotel",
+  "version": "1.0.0",
+  "description": "Primer proyecto en Node y Angular",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsapuyesp/NodeJSensayos.git"
+  },
+  "author": "Juan Jose Sapuyes Pino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsapuyesp/NodeJSensayos/issues"
+  },
+  "homepage": "https://github.com/jsapuyesp/NodeJSensayos#readme"
+}
