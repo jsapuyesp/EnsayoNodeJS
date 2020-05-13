@@ -1,12 +1,11 @@
 .jumbotron {
-    background-color: darkgoldenrod;
-    color: darkred;
+    background-color: darkred;
+    color: goldenrod;
 }
 
 .btn {
-    color: darkred;
-    background-color: darkslategray;
-    border: darkviolet;
+    color: goldenrod;
+    background-color: darkgreen;
 }
 
 .footer {
