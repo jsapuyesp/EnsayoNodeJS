@@ -14,43 +14,67 @@
 </head>
 
 <body>
-  <div class="container"></div>
-  <div class="jumbotron">
-    <h1>Hoteles</h1>
-    <p class='txt'>
-      ¡¡¡ Actualmente debido a la pandemia global, no estamos prestando servicio. Esperamos volver a verte pronto. !!!
-    </p>
-  </div>
-  <div class="d-flex flex-wrap">
-    <div class="col-sm-4">
-      <p>
-      <h3>¿cómo funciona?</h3>
-      <p>
-        Busca a tu preferencia en los diferentes establecimientos que se encuentran en la ciudad. A continuación te
-        aparecerán las recomendaciones de la página. Bienvenido, contamos contigo.
-      </p>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="./index.html">Hoteles</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a class="nav-link" href="./index.html">Hoteles</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">Sobre nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Tarifas</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Empleo</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Politica de privacidad</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div class="jumbotron">
+      <h1>Hoteles</h1>
+      <p class='txt'>
+        ¡¡¡ Actualmente debido a la pandemia global, no estamos prestando servicio. Esperamos volver a verte pronto. !!!
       </p>
     </div>
-    <div class="verticalLine"></div>
-    <div class="col-sm-4">
-      <p>
-      <h3>¿Dónde puedo reservar?</h3>
-      <p>
-        Al final de la descripción de cada uno de os establecimientos se encuentra el botón de reservar. Este te mandará
-        a otra página donde podrás efectuar tu reserva con todos los datos necesarios.
-      </p>
-      </p>
+  </header>
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page"><a href="index.html">Home</a></li>
+      </ol>
+    </nav>
+    <div class="d-flex flex-wrap">
+      <div class="col-sm-4">
+        <p>
+        <h3>¿cómo funciona?</h3>
+        <p>
+          Busca a tu preferencia en los diferentes establecimientos que se encuentran en la ciudad. A continuación te
+          aparecerán las recomendaciones de la página. Bienvenido, contamos contigo.
+        </p>
+        </p>
+      </div>
+      <div class="verticalLine"></div>
+      <div class="col-sm-4">
+        <p>
+        <h3>¿Dónde puedo reservar?</h3>
+        <p>
+          Al final de la descripción de cada uno de os establecimientos se encuentra el botón de reservar. Este te
+          mandará
+          a otra página donde podrás efectuar tu reserva con todos los datos necesarios.
+        </p>
+        </p>
+      </div>
+      <div class="verticalLine"></div>
+      <div class="col-sm-3">
+        <p>
+        <h3>¿cómo pago?</h3>
+        <p>
+          Recibimos los diferentes medios de pago del mercado. También puedes pagar mediante transferencia via Nequi.
+        </p>
+        </p>
+      </div>
     </div>
-    <div class="verticalLine"></div>
-    <div class="col-sm-3">
-      <p>
-      <h3>¿cómo pago?</h3>
-      <p>
-        Recibimos los diferentes medios de pago del mercado. También puedes pagar mediante transferencia via Nequi.
-      </p>
-      </p>
-    </div>
-  </div>
   <hr>
   <div class="d-flex flex-wrap">
     <div class="card-hotel d-flex flex-column justify-content-between">
@@ -126,6 +150,7 @@
       </div>
     </div>
   </div>
+</div>
   <hr>
   <footer class="jumbotron">
     <div class="d-flex flex-wrap">
