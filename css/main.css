@@ -1,15 +1,30 @@
 .jumbotron {
-    background-color: darkred;
-    color: goldenrod;
+    padding: 15px;
+    background-color: rgb(1, 92, 177);
+    color: whitesmoke;
 }
 
-.btn {
-    color: goldenrod;
-    background-color: darkgreen;
-}
 
 .footer {
-    padding: 10px 10px 0 10px;
-    background-color: darkgoldenrod;
+    padding: 15px;
+    background-color:  rgb(1, 92, 177);
     margin-bottom: 0px;
+}
+
+.txt {
+    color: yellow;
+}
+
+.verticalLine {
+    border-left: thin solid gainsboro ;
+  }
+
+.card-hotel {
+      flex: 1 150px;
+      padding: 5px 10px 5px 10px;
+      margin-top: 10px;
+  }
+
+.btn-reserva {
+    width: 100%;
 }
