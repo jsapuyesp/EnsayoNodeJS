@@ -17,6 +17,7 @@
 
 .verticalLine {
     border-left: thin solid gainsboro ;
+    padding: 1px;
   }
 
 .card-hotel {
@@ -33,3 +34,8 @@
     padding: 15px;
     margin-bottom: 0px;
 }
+
+.espacio {
+    padding-right: 10px;
+}
+
