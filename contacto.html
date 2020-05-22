@@ -23,8 +23,8 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item"><a class="nav-link" href="./index.html">Hoteles</a></li>
-        <li class="nav-item active"><a class="nav-link" href="./about.html">Sobre Nosotros</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">Sobre Nosotros</a></li>
+        <li class="nav-item active"><a class="nav-link" href="./contacto.html">Contacto</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Empleo</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Politica de privacidad</a></li>
       </ul>
@@ -47,15 +47,58 @@
           <li class="breadcrumb-item active" aria-current="page">Contacto</li>
         </ol>
     </nav>
+
+
       <h2>Dejanos un comentario</h2>
       <form>
         <div class="form-row">
           <div class="form-group col-sm-6">
-
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
           </div>
           <div class="form-group col-sm-6">
-            
+            <label for="Apellido">Apellido</label>
+            <input type="text" class="form-control" id="Apellido" placeholder="Ingrese su Apellido" required>
           </div>
+        </div>
+        <div class="form-group">
+          <label for="Email">Correo electrónico</label>
+          <input type="email" class="form-control" id="Email" placeholder="Ingrese su correo" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-sm-8">
+            <label for="direccion">Direccion</label>
+            <input type="text" class="form-control" id="dereccion" placeholder="Ingrese su direccion" required>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="municipio">Municipio</label>
+            <select id="municipio" class="form-control" required>
+              <option disabled selected hidden>Seleccione una opcion...</option>
+              <option>Medellin</option>
+              <option>Bello</option>
+              <option>Envigado</option>
+              <option>Sabaneta</option>
+              <option>Itagüi</option>
+              <option>Girardota</option>
+              <option>Copacabana</option>
+              <option>Barbosa</option>
+              <option>Caldas</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="comentario">Comentario</label>
+          <textarea id="comentario" class="form-control" rows="5" placeholder="Tu comentario es importante para nosotros" required></textarea>
+        </div>
+        <div class="form-check" style="margin-top:5px;">
+          <input class="form-check-input" type="checkbox" id="aceptocomentario" required>
+          <label class="form-check-label" for="aceptocomentario">
+            Acepto que mi comentario sea revisado si infringe las normas
+          </label>
+        </div>
+        <div class="form-row" style="margin-top: 5px;">
+            <button type="submit" style="margin-right: 5px;"  class="btn btn-primary">Enviar</button>
+            <button type="reset" style="margin-left: 5px;" class="btn btn-outline-primary">Cancelar</button>
         </div>
       </form>
       <hr>
