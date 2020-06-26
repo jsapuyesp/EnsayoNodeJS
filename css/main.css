@@ -1,8 +1,8 @@
 .jumbotron {
-    padding: 15px;
+    padding: 10px;
     background-color: rgb(1, 92, 177);
     color: whitesmoke;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 
@@ -38,5 +38,9 @@
 
 .espacio {
     padding-right: 10px;
+}
+
+.tab-content{
+    padding-top: 10px;
 }
 

@@ -49,64 +49,96 @@
                 <li class="breadcrumb-item active" aria-current="page">Precios</li>
             </ol>
         </nav>
-        
-        <div class="table-responsive">
-            <table class="table table-striped">
-                <h4>Nuestros precios según tus necesidades</h4>
-                <thead class="thead-dark">
-                    <th>Calidad</th>
-                    <th>Con jacuzzi</th>
-                    <th>Con parqueadero</th>
-                    <th>Con jacuzzi y parqueadero</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><span class="oi oi-star"></span></td>
-                        <td>$15USD</td>
-                        <td>$20USD</td>
-                        <td>$25USD</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span></td>
-                        <td>$25USD</td>
-                        <td>$30USD</td>
-                        <td>$35USD</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span></td>
-                        <td>$35USD</td>
-                        <td>$40USD</td>
-                        <td>$45USD</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span></td>
-                        <td>$45USD</td>
-                        <td>$50USD</td>
-                        <td>$55USD</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span></td>
-                        <td>$55USD</td>
-                        <td>$60USD</td>
-                        <td>$65USD</td>
-                    </tr>
-                </tbody>
-            </table>
+
+        <ul class="nav nav-tabs" id="my-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="compara-tab" data-toggle="tab" href="#compara" role="tab"
+                    aria-controls="compara" aria-selected="true">Compara</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tarjetas-tab" data-toggle="tab" href="#tarjetas" role="tab"
+                    aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="tab"
+                    aria-controls="comentarios" aria-selected="false">Comentarios</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+                <div class="table responsive">
+                    <table class="table table-striped">
+                        <h4>Nuestros precios según tus necesidades</h4>
+                        <thead class="thead-dark">
+                            <th>Calidad</th>
+                            <th>Con jacuzzi</th>
+                            <th>Con parqueadero</th>
+                            <th>Con jacuzzi y parqueadero</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>$15USD</td>
+                                <td>$20USD</td>
+                                <td>$25USD</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$25USD</td>
+                                <td>$30USD</td>
+                                <td>$35USD</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$35USD</td>
+                                <td>$40USD</td>
+                                <td>$45USD</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$45USD</td>
+                                <td>$50USD</td>
+                                <td>$55USD</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$55USD</td>
+                                <td>$60USD</td>
+                                <td>$65USD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+                <div class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header" style="background-color:rgb(1, 92, 177); color: whitesmoke;">
+                            Tarjetas aceptadas
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Tarjeta basica</li>
+                            <li class="list-group-item">Tarjeta VIP</li>
+                            <li class="list-group-item">Tarjeta Premium</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+                <p>nada x2</p>
+            </div>
         </div>
-
-
-
-
         <hr>
         <footer class="jumbotron">
             <center>
