@@ -122,16 +122,42 @@
                 </div>
             </div>
             <div class="tab-pane fade show" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
-                <div class="d-flex justify-content-center">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-header" style="background-color:rgb(1, 92, 177); color: whitesmoke;">
-                            Tarjetas aceptadas
+                <div class="acordion" id="acordionTarjetas">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBasica" aria-expanded="true" aria-controls="collapseBasica">Tarjeta debito</button>
+                            </h5>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Tarjeta basica</li>
-                            <li class="list-group-item">Tarjeta VIP</li>
-                            <li class="list-group-item">Tarjeta Premium</li>
-                        </ul>
+                        <div id="collapseBasica" class="collapse" aria-labelledby="headingOne" data-parent="#acordionTarjetas">
+                            <div class="card-body">
+                                Reserva hasta tres días antes sin intereses.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseVIP" aria-expanded="false" aria-controls="collapseVIP">Tarjeta de credito</button>
+                            </h5>
+                        </div>
+                        <div id="collapseVIP" class="collapse" aria-labelledby="headingTwo" data-parent="#acordionTarjetas">
+                            <div class="card-body">
+                                Reserva hasta con 24 horas previas al ingreso sin costo adicional
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading3">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseVIPPRO" aria-expanded="false" aria-controls="collapseVIPPRO">Tarjeta de crédito premium</button>
+                            </h5>
+                        </div>
+                        <div id="collapseVIPPRO" class="collapse" aria-labelledby="heading3" data-parent="#acordionTarjetas">
+                            <div class="card-body">
+                                Reserva hasta tres días antes sin intereses.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

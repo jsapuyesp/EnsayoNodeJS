@@ -50,23 +50,33 @@
     </nav>
     <center><img src=".\images\promociones.jpg" class="img-fluid" alt="HotelIntro" width="1024" height="400"></center>
     <hr> 
-    <div class="d-flex flex-wrap">
+    <div class="row">
       <div class="col-sm-4">
+        <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona" aria-controls="multiCollapse1">¿Cómo funciona?</button></center>
+      </div>
+      <div class="col-sm-4">
+        <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva" aria-controls="multiCollapse2">¿Dónde puedo reservar?</button></center>
+      </div>
+      <div class="col-sm-4">
+        <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago" aria-controls="multiCollapse3">¿Cómo pago?</button></center>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 collapse multi-collapse" id="funciona">
         <center>
         <p>
-        <h3><span class="oi oi-cog espacio"></span>¿cómo funciona?</h3>
+        <h3><span class="oi oi-cog"></span>¿cómo funciona?</h3>
         <p>
           Busca a tu preferencia en los diferentes establecimientos que se encuentran en la ciudad. A continuación te
           aparecerán las recomendaciones de la página. Bienvenido, contamos contigo.
         </p>
         </p>
       </center>
-      </div>  
-      <div class="verticalLine"></div>
-      <div class="col-sm-4">
+      </div>
+      <div class="col-sm-4 collapse multi-collapse" id="reserva">
         <center>
         <p>
-        <h3><span class="oi oi-map-marker espacio"></span>¿Dónde puedo reservar?</h3>
+        <h3><span class="oi oi-map-marker"></span>¿Dónde puedo reservar?</h3>
         <p>
           Al final de la descripción de cada uno de os establecimientos se encuentra el botón de reservar. Este te
           mandará
@@ -75,11 +85,10 @@
         </p>
         </center>
       </div>
-      <div class="verticalLine"></div>
-      <div class="col-sm-3">
+      <div class="col-sm-4 collapse multi-collapse" id="pago">
         <center>
         <p>
-        <h3><span class="oi oi-credit-card espacio"></span>¿cómo pago?</h3>
+        <h3><span class="oi oi-credit-card"></span>¿cómo pago?</h3>
         <p>
           Recibimos los diferentes medios de pago del mercado. También puedes pagar mediante transferencia via Nequi.
         </p>
