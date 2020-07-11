@@ -1,11 +1,16 @@
 $blue:#000b54;
 $yellow:#ccc900;
 
+@mixin margenes($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
 .jumbotron {
     padding: 20px;
     background-color: $blue;
     color: whitesmoke;
-    margin-top: 35px;
+    @include margenes(50px, 0px)
 }
  .jumbotron-fluid {
     background-color: $blue;
@@ -15,7 +20,6 @@ $yellow:#ccc900;
 
 .footer {
     padding: 0px;
-    margin-bottom: 0px;
 }
 
 .txt {
@@ -30,8 +34,8 @@ $yellow:#ccc900;
 .card-hotel {
       flex: 1 200px;
       padding: 2px 0px 2px 0px;
-      margin-top: 10px;
-  }
+      @include margenes(10px, 0px)
+    }
 
 .btn-reserva {
     width: 100%;
@@ -40,7 +44,6 @@ $yellow:#ccc900;
 
 .header {
     padding: 15px;
-    margin-bottom: 0px;
 }
 
 .espacio {
