@@ -275,7 +275,7 @@
           <h6 class="card-subtitle text-muted">5 Estrellas</h6>
           <img src=".\images\hotelxd.jpg" class="img-fluid" alt="Hotel" width="315" height="200">
           <p class="card-text">Barato y confiable</p>
-          <button class="btn btn-outline-primary" data-toggle="modal" data-target="#contacto"><span
+          <button class="btn btn-outline-primary" data-toggle="modal" data-target="#contacto" id="contactoBtn"><span
               class="oi oi-phone"></span> Contactanos</button>
         </div>
         <div>
@@ -370,6 +370,9 @@
       $('[data-toggle="popover"]').popover();
       $('.carousel').carousel({
         interval:2000
+      });
+      $('#contacto').on('show.bs.modal', function (e){
+          console.log('Hola xd');
       });
     });
   </script>
