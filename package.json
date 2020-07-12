@@ -5,9 +5,11 @@
   "main": "index.html",
   "scripts": {
     "dev": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+    "start": "concurrently \"npm run watch:scss\" \"npm run dev\" ",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npx npm-force-resolutions",
-    "scss": "node-sass -o css/ css/"
+    "preinstall": "npx npm-force-resolutions"
   },
   "repository": {
     "type": "git",
@@ -21,11 +23,15 @@
   "homepage": "https://github.com/jsapuyesp/NodeJSensayos#readme",
   "devDependencies": {
     "lite-server": "^2.5.4",
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "onchange": "^7.0.2",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "@popperjs/core": "^2.4.4",
     "bootstrap": "^4.5.0",
+    "concurrently": "^5.2.0",
     "http-proxy": "^1.18.1",
     "jquery": "^3.5.1",
     "lodash": "^4.17.15",
