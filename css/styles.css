@@ -2,15 +2,15 @@
   padding: 20px;
   background-color: #000b54;
   color: whitesmoke;
-  margin-top: 35px; }
+  margin-top: 50px;
+  margin-bottom: 0px; }
 
 .jumbotron-fluid {
   background-color: #000b54;
   color: whitesmoke; }
 
 .footer {
-  padding: 0px;
-  margin-bottom: 0px; }
+  padding: 0px; }
 
 .txt {
   color: #ccc900; }
@@ -22,15 +22,15 @@
 .card-hotel {
   flex: 1 200px;
   padding: 2px 0px 2px 0px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-bottom: 0px; }
 
 .btn-reserva {
   width: 100%;
   border-radius: 0px; }
 
 .header {
-  padding: 15px;
-  margin-bottom: 0px; }
+  padding: 15px; }
 
 .espacio {
   padding-right: 10px; }
